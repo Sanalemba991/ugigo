@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       'Explore our comprehensive range of industrial products including valves, gaskets, fasteners, and more. High-quality marine and industrial solutions.',
     type: 'website',
-    url: 'https://oasismarineuae.com/categories',
+    url: 'https://oasismarineuae.com/products',
   },
   robots: {
     index: true,
