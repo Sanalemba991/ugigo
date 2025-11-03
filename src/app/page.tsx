@@ -17,10 +17,9 @@ export default function Home() {
       <WhyChooseUs />
       <MarineSupplyPage />
       <Flipbook />
-     
       <QHSEPolicySection />
-      <Testimony/>
-       <FAQ />
+      <Testimony />
+      <FAQ />
     </div>
   );
 }

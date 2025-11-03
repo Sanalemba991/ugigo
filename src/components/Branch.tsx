@@ -7,7 +7,7 @@ import Image from "next/image";
 import Ram from "./Ram";
 import Sam from "./Sam";
 import RAms from "../app/assets/branch/oasisstar-275x300.jpg";
-import Banner from  "../app/assets/banner/Our Branches.jpg";
+import Banner from "../app/assets/banner/Our Branches.jpg";
 
 interface HistoryMilestone {
   year: number;
@@ -147,7 +147,7 @@ const Branch: React.FC = () => {
           {/* Primary banner image */}
           <div className="absolute inset-0">
             <Image
-            src={Banner}
+              src={Banner}
               alt="Lovosis Technology Banner"
               fill
               className="object-cover object-center"
@@ -214,7 +214,7 @@ const Branch: React.FC = () => {
                 }}
                 className="text-3xl md:text-5xl lg:text-6xl leading-tight"
               >
-                Our <span className="">Branch</span>
+                Our <span className="">Branches</span>
               </motion.h1>
 
               <motion.div
@@ -260,8 +260,7 @@ const Branch: React.FC = () => {
                 maxWidth: "none",
               }}
             >
-              Empowering innovation, education, and digital transformation
-              across all our branches.
+              Serving multiple locations with efficent distribution, quick response & in person support so you can always count on local persecnce & reliability.
             </motion.p>
           </motion.div>
         </div>
